@@ -1,0 +1,60 @@
+```
+Primeiro dia
+```
+
+- [ ] Apresentar aplicação
+- [ ] Configurar ambiente de desenvolvimento
+	- [ ] Node.js & NPM
+	- [ ] Visual Studio Code
+- [ ] Entender sobre backend e frontend
+- [ ] Criar projeto com Node.js
+- [ ] Entender sobre React & SPA
+- [ ] Criar projeto com ReactJS
+- [ ] Entender sobre React Native & Expo
+
+
+Apresentar aplicação:
+	Nome da aplicação: be the hero
+	Descrição: Sistema web e mobile para auxiliar na resolução de problemas locais.
+	Ex: Um cachorro de rua foi atropelado e será preciso fazer o pagamento da veterinária.
+
+VS Code
+	dracula e material icons theme
+
+- Backend
+  Regras de negócio
+  Conexão com banco de dados
+  Envio de email
+  Comunicação com webservices
+  Autenticação do usuário
+  Criptografia e segurança
+
+JSON para comunicação frontend web e mobile e serviços externos
+
+
+- Frontend
+
+Entendendo o React
+  Abordagem tradicional
+    Na abordagem tradicional, a cada requisição, o servidor retorna o conteúdo completo da página, contendo todo HTML e CSS.
+Essa abordagem limita o frontend para o browser já que o aplicativo mobile ou serviços externos não vão conseguir interpretar o HTML
+
+  Abordagem de SPA (single-page applications)
+    Na abordagem de SPA, as requisições trazem apenas dados como respostas e com esses dados, o frontend pode preencher as informações em tela.
+A página nunca recarrega, otimizando a performance e dando vida ao conceito de SPA. Retornando apenas JSON, podemos ter quantos frontends quisermos.
+
+Entendendo o React Native
+
+  Abordagem Tradicional
+    Na abordagem tradicional, criamos uma aplicação para IOS(.ipa) e outra para Android(.apk), e nesses casos, o trabalho se torna repetido tanto para criação quanto para alterações no projeto.
+
+  Abordagem do React Native
+    Todo código é feito em JavaScript, esse código não é convertido em código nativo, melhor que isso, o dispositivo passa a entender o código JavaScript e a interface é gerada totalmente nativa.
+
+
+Por que utilizaremos o Expo?
+  Sem o Expo, precisamos instalar em nosso sistema tanto o Android Studio para obter a SDK de desenvolvimento Android, e o XCode (apenas MAC) para obter a SDK do iOS.
+Nesse caso, nossa iniciação no desenvolvimento fica mais penosa, já que essas SDK's não são extremamente simples de instalar e livres de erros.
+
+  Com o Expo, nós instalamos um aplicativo no celular chamado Expo, e dentro dele, tudo o que precisamos para desenvolver no React Native já está instalado, como as API's de mapas, geolocalização, câmera, sensores, calendários, etc...
+  Com isso, não precisamos nos preocupar em gerar um aplicativo pra Android e iOS já que o app do Expo instalado tem tudo o que precisamos e assim usamos apenas React.
