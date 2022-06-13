@@ -1,2 +1,2 @@
-# be-the-hero (Semana Omnistack v11 | Rocketseat)
+# be-the-hero
 Sistema web e mobile para auxiliar na resolução de problemas locais.
